@@ -7,12 +7,12 @@
         int hh,mm,ss;
     public:
         void getTime(void);
-		void display(void);
+	void display(void);
 }; 
 void Time::getTime(void)
 {
     cout << "Enter time:" << endl;
-    cout << "Hours?   ";          
+    cout << "Hours?   ";
 	cin >> hh;
     cout << "Minutes? ";          
 	cin >> mm;
